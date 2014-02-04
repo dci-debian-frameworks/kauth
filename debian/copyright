@@ -1,0 +1,68 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kauth
+Source: https://projects.kde.org/projects/frameworks/kauth
+
+Files: *
+Copyright: © 2009-2012 Dario Freddi <drf@kde.org> <drf54321@gmail.com>
+           © 2008 Nicola Gigante <nicola.gigante@gmail.com>
+           © 2009 Radek Novacek <rnovacek@redhat.com>
+           © 2006-2009 Alexander Neundorf <neundorf@kde.org>
+           © 2007 Matthias Kretz <kretz@kde.org>
+           © 2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>
+           © 2009 Michal Malek <michalm@jabster.pl>
+           © 2006-2007 Laurent Montel <montel@kde.org>
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Lesser General Public License version 2.1 can be found in
+ /usr/share/common-licenses/LGPL-2.1
+
+Files: src/kauthobjectdecorator.cpp
+       src/kauthobjectdecorator.h
+Copyright: 2009-2012 Dario Freddi <drf@kde.org>         
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+  
+Files: debian/*       
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
