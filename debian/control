@@ -4,15 +4,15 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5coreaddons5-dev, dbus-x11,
- pkg-config
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev,
+ libkf5coreaddons-dev (>= 4.96.0), dbus-x11, pkg-config
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kauth
 
 Package: libkf5auth-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5auth5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5auth4 (= ${binary:Version}), ${misc:Depends}
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
@@ -39,7 +39,7 @@ Description: Abstraction to system policy and authentication features
  .
  Contains development files for kauth.
  
-Package: libkf5auth5
+Package: libkf5auth4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -68,12 +68,12 @@ Description: Abstraction to system policy and authentication features
  needed, using a secure mechanism that ensures that the user
  is authorized to do so. 
 
-Package: libkf5auth5-dbg
+Package: libkf5auth4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5auth5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5auth4 (= ${binary:Version}), ${misc:Depends}
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
