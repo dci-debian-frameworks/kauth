@@ -1,4 +1,4 @@
-kauth (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+kauth (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * New upstream alpha release
@@ -7,7 +7,10 @@ kauth (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * libs changed to 4.x renamed files/entries. 
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:28:22 +0100
+  [ Jonathan Riddell ]
+  * New upstream alpha release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:52 +0000
 
 kauth (4.95.0-0ubuntu1) trusty; urgency=low
 
