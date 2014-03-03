@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Auth.so.4 libkf5auth4 #MINVER#
+libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth10ExecuteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN5KAuth10ExecuteJob11qt_metacastEPKc@Base 4.96.0
  _ZN5KAuth10ExecuteJob13statusChangedENS_6Action10AuthStatusE@Base 4.96.0
