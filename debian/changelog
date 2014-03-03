@@ -1,14 +1,11 @@
-kauth (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kauth (4.96.0-0ubuntu1) trusty; urgency=medium
 
   [ Rohan Garg ]
   * New upstream alpha release
-    - Drop rename-dbus-interface.diff, upstreamed 
+    - Drop rename-dbus-interface.diff, upstreamed
 
   [ Scarlett Clark ]
-  * libs changed to 4.x renamed files/entries. 
-
-  [ Jonathan Riddell ]
-  * New upstream alpha release
+  * libs changed to 4.x renamed files/entries.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:52 +0000
 
