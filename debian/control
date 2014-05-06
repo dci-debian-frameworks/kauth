@@ -5,7 +5,8 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  extra-cmake-modules (>= 0.0.13), qtbase5-dev,
- libkf5coreaddons-dev (>= 4.99.0), dbus-x11, pkg-config
+ libkf5coreaddons-dev (>= 4.99.0), dbus-x11, pkg-config,
+ qttools5-dev, qttools5-dev-tools, qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kauth
 
@@ -17,29 +18,22 @@ Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
  .
- The KDE Authorization API allows developers to write desktop
- applications that run high-privileged tasks in an easy,
- secure and cross-platform way. Previously, if an application
- had to do administrative tasks, it had to be run as root, 
- using mechanisms such as sudo or graphical equivalents, 
- or by setting the executable's setuid bit. This approach 
- has some drawbacks. For example, the whole application code,
- including GUI handling and network communication, had to
- be done as root. More code that runs as root means
- more possible security holes.
+ KAuth is part of KDE Frameworks 5.
  .
- The solution is the caller/helper pattern. With this pattern,
- the privileged code is isolated in a small helper tool that
- runs as root. This tool includes only the few lines of code
- that actually need to be run with privileges, not the whole
- application logic. All the other parts of the application 
- are run as a normal user, and the helper tool is called when
- needed, using a secure mechanism that ensures that the user
- is authorized to do so. 
- .
- Contains development files for kauth.
+ This package contains development files for kauth.
  
 Package: libkf5auth5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkf5auth5-data (= ${binary:Version})
+Description: Abstraction to system policy and authentication features
+ KAuth is a framework to let applications perform actions as a
+ privileged user.
+ .
+ KAuth is part of KDE Frameworks 5.
+
+Package: libkf5auth5-data
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -48,25 +42,9 @@ Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
  .
- The KDE Authorization API allows developers to write desktop
- applications that run high-privileged tasks in an easy,
- secure and cross-platform way. Previously, if an application
- had to do administrative tasks, it had to be run as root, 
- using mechanisms such as sudo or graphical equivalents, 
- or by setting the executable's setuid bit. This approach 
- has some drawbacks. For example, the whole application code,
- including GUI handling and network communication, had to
- be done as root. More code that runs as root means
- more possible security holes.
+ KAuth is part of KDE Frameworks 5.
  .
- The solution is the caller/helper pattern. With this pattern,
- the privileged code is isolated in a small helper tool that
- runs as root. This tool includes only the few lines of code
- that actually need to be run with privileges, not the whole
- application logic. All the other parts of the application 
- are run as a normal user, and the helper tool is called when
- needed, using a secure mechanism that ensures that the user
- is authorized to do so. 
+ This package contains the translations.
 
 Package: libkf5auth5-dbg
 Priority: extra
@@ -78,24 +56,6 @@ Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
  .
- The KDE Authorization API allows developers to write desktop
- applications that run high-privileged tasks in an easy,
- secure and cross-platform way. Previously, if an application
- had to do administrative tasks, it had to be run as root, 
- using mechanisms such as sudo or graphical equivalents, 
- or by setting the executable's setuid bit. This approach 
- has some drawbacks. For example, the whole application code,
- including GUI handling and network communication, had to
- be done as root. More code that runs as root means
- more possible security holes.
+ KAuth is part of KDE Frameworks 5.
  .
- The solution is the caller/helper pattern. With this pattern,
- the privileged code is isolated in a small helper tool that
- runs as root. This tool includes only the few lines of code
- that actually need to be run with privileges, not the whole
- application logic. All the other parts of the application 
- are run as a normal user, and the helper tool is called when
- needed, using a secure mechanism that ensures that the user
- is authorized to do so. 
- .
- Contains debug symbols for kauth.
+ This package contains debug symbols for KAuth.
