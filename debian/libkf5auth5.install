@@ -1,4 +1,4 @@
 usr/lib/*/libKF5Auth.so.4*
-usr/lib/*/qt5/plugins/kf5/plugins/kauth/helper/kauth_helper_plugin.so
+usr/lib/*/qt5/plugins/kauth/helper/kauth_helper_plugin.so
 usr/share/kauth/*
 usr/lib/*/libKF5Auth.so.5
