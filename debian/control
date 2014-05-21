@@ -20,7 +20,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kauth
 Package: libkf5auth5
 Section: libdevel
 Architecture: any
-Depends: libkf5auth5-data (= ${binary:Version}),
+Depends: libkf5auth5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
@@ -32,8 +32,8 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5auth5-data
-Architecture: any
-Multi-Arch: same
+Architecture: all
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
