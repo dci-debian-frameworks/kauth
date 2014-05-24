@@ -28,7 +28,7 @@ License: LGPL-2.1+
 
 Files: src/kauthobjectdecorator.cpp
        src/kauthobjectdecorator.h
-Copyright: 2009-2012 Dario Freddi <drf@kde.org>         
+Copyright: 2009-2012 Dario Freddi <drf@kde.org>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -47,9 +47,9 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-  
-Files: debian/*       
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

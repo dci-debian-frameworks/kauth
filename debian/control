@@ -17,8 +17,19 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kauth
 
-Package: libkf5auth5
+Package: libkf5auth-dev
 Section: libdevel
+Architecture: any
+Depends: libkf5auth5 (= ${binary:Version}), ${misc:Depends}
+Description: Abstraction to system policy and authentication features
+ KAuth is a framework to let applications perform actions as a
+ privileged user.
+ .
+ KAuth is part of KDE Frameworks 5.
+ .
+ This package contains development files for kauth.
+
+Package: libkf5auth5
 Architecture: any
 Depends: libkf5auth5-data (= ${source:Version}),
          ${misc:Depends},
