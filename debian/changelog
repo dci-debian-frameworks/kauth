@@ -1,6 +1,7 @@
 kauth (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Install *.pri files in arch dependent path.
+  * Add libpolkit-qt-1-dev to Build-Depends.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 30 May 2014 20:11:39 +0200
 
