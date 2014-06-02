@@ -20,7 +20,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kauth
 Package: libkf5auth-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5auth5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5auth5 (= ${binary:Version}), ${misc:Depends},
+ libkf5coreaddons-dev
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
