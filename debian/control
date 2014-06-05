@@ -42,12 +42,10 @@ Description: Abstraction to system policy and authentication features
  .
  KAuth is part of KDE Frameworks 5.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5auth5-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
