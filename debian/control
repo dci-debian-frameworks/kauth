@@ -33,7 +33,7 @@ Description: Abstraction to system policy and authentication features
 
 Package: libkf5auth5
 Architecture: any
-Depends: libkf5auth5-data (= ${source:Version}),
+Depends: libkf5auth-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
@@ -43,10 +43,12 @@ Description: Abstraction to system policy and authentication features
  KAuth is part of KDE Frameworks 5.
 Multi-Arch: same
 
-Package: libkf5auth5-data
+Package: libkf5auth-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5auth5-data
+Replaces: libkf5auth5-data
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.

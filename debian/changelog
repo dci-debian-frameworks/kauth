@@ -5,11 +5,12 @@ kauth (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
 
   [ Harald Sitter ]
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * libkf5auth5-data to libkf5auth-data
+    + Replaces+Breaks previous
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:33:56 +0100
 
