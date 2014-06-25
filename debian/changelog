@@ -12,6 +12,11 @@ kauth (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * libkf5auth5-data to libkf5auth-data
     + Replaces+Breaks previous
 
+  [ José Manuel Santamaría Lema ]
+  * Add new package libkf5auth5-bin with runtime files.
+  * Move /usr/share/kf5/kauth/* files from libkf5auth5 to -data package.
+  * Remove plugin symbols from libkf5auth5.symbols. 
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:33:56 +0100
 
 kauth (4.99.0-0ubuntu1) trusty; urgency=medium
