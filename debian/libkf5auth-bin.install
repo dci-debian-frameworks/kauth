@@ -1,2 +1,2 @@
 usr/lib/*/qt5/plugins/kauth/helper/kauth_helper_plugin.so
-usr/lib/*/libexec/kauth/kauth-policy-gen
+#usr/lib/*/libexec/kauth/kauth-policy-gen
