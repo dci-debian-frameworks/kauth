@@ -1,4 +1,3 @@
-etc/dbus-1/system.d/org.kde.kf5auth.conf
 usr/include/KF5/
 usr/lib/*/cmake/KF5Auth/
 usr/lib/*/libKF5Auth.so
