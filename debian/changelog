@@ -6,6 +6,7 @@ kauth (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Fix install files
   * Symbols 
+  * ECM fixed, revert install fix 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:30:00 +0200
 
