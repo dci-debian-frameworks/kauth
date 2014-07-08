@@ -16,6 +16,8 @@ Build-Depends: cmake,
                qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kauth
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kauth
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kauth
 
 Package: libkf5auth-dev
 Section: libdevel
