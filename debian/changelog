@@ -8,6 +8,7 @@ kauth (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Symbols 
   * ECM fixed, revert install fix 
   * Update watch file to stable
+  * Remove -data and update copyright to match upstream 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:30:00 +0200
 
