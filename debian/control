@@ -10,7 +10,6 @@ Build-Depends: cmake,
                libkf5coreaddons-dev (>= 5.0.0),
                pkg-config,
                pkg-kde-tools,
-               qt5-default,
                qtbase5-dev,
                qttools5-dev,
                qttools5-dev-tools
@@ -33,33 +32,29 @@ Description: Abstraction to system policy and authentication features
  .
  This package contains development files for kauth.
 
-Package: libkf5auth-bin
-Section: libdevel
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5auth5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
-Replaces: libkf5auth5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
-Description: Abstraction to system policy and authentication features
- KAuth is a framework to let applications perform actions as a
- privileged user.
- .
- KAuth is part of KDE Frameworks 5.
- .
- This package contains runtime files for kauth.
-
 Package: libkf5auth5
 Architecture: any
 Depends: libkf5auth-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libkf5auth-bin (= ${binary:Version})
-Replaces: libkf5auth-data
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
  privileged user.
  .
  KAuth is part of KDE Frameworks 5.
 Multi-Arch: same
+
+Package: libkf5auth-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Abstraction to system policy and authentication features
+ KAuth is a framework to let applications perform actions as a
+ privileged user.
+ .
+ KAuth is part of KDE Frameworks 5.
+ .
+ This package contains the translations.
 
 Package: libkf5auth5-dbg
 Priority: extra
