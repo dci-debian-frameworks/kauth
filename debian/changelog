@@ -1,6 +1,10 @@
-kauth (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
+kauth (5.0.0-0ubuntu2) utopic; urgency=medium
 
+  [ Rohan Garg ]
   * Make sure we add the XS-Testsuite field to debian/control
+
+  [ Harald Sitter ]
+  * Build depend on libpolkit-qt5-1-dev to make kauth actually work
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 16 Jul 2014 17:41:50 +0200
 
