@@ -56,7 +56,7 @@ Description: Abstraction to system policy and authentication features
  .
  KAuth is part of KDE Frameworks 5.
  .
- This package contains the translations.
+ This package contains data files.
 
 Package: libkf5auth5-dbg
 Priority: extra

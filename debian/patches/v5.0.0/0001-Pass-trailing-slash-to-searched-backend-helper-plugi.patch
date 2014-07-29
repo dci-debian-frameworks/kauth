@@ -1,0 +1,27 @@
+From f900d7d4798503479b88346a2689ec6bee417193 Mon Sep 17 00:00:00 2001
+From: Hrvoje Senjan <hrvoje.senjan@gmail.com>
+Date: Wed, 2 Jul 2014 09:32:23 +0200
+Subject: [PATCH 1/5] Pass trailing slash to searched backend/helper plugin dir
+ Unbreaks plugin loading
+
+CCMAIL: aleixpol@kde.org
+---
+ src/BackendsManager.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/BackendsManager.cpp b/src/BackendsManager.cpp
+index cd0bf3f..0dd4661 100644
+--- a/src/BackendsManager.cpp
++++ b/src/BackendsManager.cpp
+@@ -44,7 +44,7 @@ QList< QObject * > BackendsManager::retrieveInstancesIn(const QString &subdir)
+ {
+     QList<QObject *> retlist;
+     foreach (const QString& pPath, QCoreApplication::libraryPaths()) {
+-        QDir pluginPath(pPath + subdir);
++        QDir pluginPath(pPath + QLatin1Char('/') + subdir);
+         if (!pluginPath.exists() || pPath.isEmpty()) {
+             continue;
+         }
+-- 
+2.0.1
+

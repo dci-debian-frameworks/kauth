@@ -1,3 +1,13 @@
+kauth (5.0.0-0ubuntu3) utopic; urgency=medium
+
+  * Import all upstream commits between v5.0.0 and today in patches/v5.0.0
+    (due to be replaced next week by new frameworks release)
+    + This should improve overall usefulness of kauth considerably
+    + Update install files for new backend plugin and policy generation helper
+    + Update symbols file for new plugin
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 29 Jul 2014 19:29:58 +0200
+
 kauth (5.0.0-0ubuntu2) utopic; urgency=medium
 
   [ Rohan Garg ]

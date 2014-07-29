@@ -1,7 +1,10 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0-0ubuntu3 amd64
 kauth_backend_plugin.so libkf5auth5 #MINVER#
  qt_plugin_instance@Base 5.0.0
  qt_plugin_query_metadata@Base 5.0.0
+kauth_helper_plugin.so libkf5auth5 #MINVER#
+ qt_plugin_instance@Base 5.0.0-0ubuntu3
+ qt_plugin_query_metadata@Base 5.0.0-0ubuntu3
 libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth10ExecuteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN5KAuth10ExecuteJob11qt_metacastEPKc@Base 4.96.0

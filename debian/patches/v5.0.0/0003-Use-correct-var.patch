@@ -1,0 +1,30 @@
+From dca7a29e678ad0631351b0574a168cc632037f45 Mon Sep 17 00:00:00 2001
+From: Hrvoje Senjan <hrvoje.senjan@gmail.com>
+Date: Mon, 7 Jul 2014 22:11:39 +0200
+Subject: [PATCH 3/5] Use correct var
+
+---
+ src/ConfigureChecks.cmake | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/ConfigureChecks.cmake b/src/ConfigureChecks.cmake
+index ff0d486..70b9f7d 100644
+--- a/src/ConfigureChecks.cmake
++++ b/src/ConfigureChecks.cmake
+@@ -101,11 +101,11 @@ else(NOT KAUTH_BACKEND)
+           TYPE RECOMMENDED
+           PURPOSE "Support for executing priviledged actions in a controlled way (KAuth). Either this or PolkitQt is required to make KAuth work, and hence enable certain workspace functionalities"
+         )
+-        if (NOT POLKITQT5-1_FOUND)
++        if (NOT PolkitQt5-1_FOUND)
+             message ("WARNING: You chose the PolkitQt5-1 KAuth backend but you don't have PolkitQt5-1 installed.
+                       Falling back to Fake backend")
+             set (KAUTH_BACKEND "FAKE")
+-        endif (NOT POLKITQT5-1_FOUND)
++        endif (NOT PolkitQt5-1_FOUND)
+     endif (KAUTH_BACKEND STREQUAL "POLKITQT5-1")
+ endif(NOT KAUTH_BACKEND)
+ 
+-- 
+2.0.1
+
