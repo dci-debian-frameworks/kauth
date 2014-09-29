@@ -1,5 +1,5 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5Auth/
-usr/lib/*/libexec/kauth/kauth-policy-gen
 usr/lib/*/libKF5Auth.so
+usr/lib/*/libexec/kauth/kauth-policy-gen
 usr/lib/*/qt5/mkspecs/modules/*
