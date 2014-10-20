@@ -1,3 +1,9 @@
+kauth (5.3.0-0ubuntu2) utopic; urgency=medium
+
+  * Add upstream_cmake-paths.diff to fix install paths
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 20 Oct 2014 15:21:31 +0200
+
 kauth (5.3.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
