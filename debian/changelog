@@ -7,6 +7,7 @@ kauth (5.6.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to follow cmake.
   * Add shlibs:Depends to the -dev package.
   * Add acc autopkgtests.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 09:02:37 +0100
 
