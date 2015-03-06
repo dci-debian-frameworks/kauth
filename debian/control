@@ -23,7 +23,7 @@ Package: libkf5auth-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5auth5 (= ${binary:Version}),
-         libkf5coreaddons-dev,
+         libkf5coreaddons-dev (>= 5.7.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
