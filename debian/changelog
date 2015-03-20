@@ -1,9 +1,9 @@
-kauth (5.8.0-1~) UNRELEASED; urgency=medium
+kauth (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
   * New pending patch: kauth_add_license
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:24:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Mar 2015 14:13:24 +0100
 
 kauth (5.7.0-1) experimental; urgency=medium
 
