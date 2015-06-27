@@ -22,7 +22,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kauth.git
 Package: libkf5auth-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5auth-bin-dev ( = ${binary:Version}),
          libkf5auth5 (= ${binary:Version}),
          libkf5coreaddons-dev (>= 5.11.0~),
