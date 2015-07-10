@@ -2,5 +2,4 @@ usr/include/KF5/KAuth/
 usr/include/KF5/kauth_version.h
 usr/lib/*/cmake/KF5Auth/
 usr/lib/*/libKF5Auth.so
-usr/lib/*/libexec/kauth/kauth-policy-gen
 usr/lib/*/qt5/mkspecs/modules/qt_KAuth.pri
