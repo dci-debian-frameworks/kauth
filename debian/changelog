@@ -1,6 +1,7 @@
 kauth (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * new upstream release
+  * Bump libkf5auth-bin-dev breaks of libkf5auth-dev
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:16:22 +0200
 
