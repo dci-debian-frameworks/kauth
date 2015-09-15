@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0-0ubuntu3 amd64
+# SymbolsHelper-Confirmed: 5.14 amd64
 kauth_backend_plugin.so libkf5auth5 #MINVER#
  qt_plugin_instance@Base 5.0.0
  qt_plugin_query_metadata@Base 5.0.0
@@ -11,12 +11,6 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth10ExecuteJob13statusChangedENS_6Action10AuthStatusE@Base 4.96.0
  _ZN5KAuth10ExecuteJob16staticMetaObjectE@Base 4.96.0
  _ZN5KAuth10ExecuteJob5startEv@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private15doExecuteActionEv@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private16progressStepSlotERK7QStringRK4QMapIS2_8QVariantE@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private16progressStepSlotERK7QStringi@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private17doAuthorizeActionEv@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private17statusChangedSlotERK7QStringNS_6Action10AuthStatusE@Base 4.96.0
- _ZN5KAuth10ExecuteJob7Private19actionPerformedSlotERK7QStringRKNS_11ActionReplyE@Base 4.96.0
  _ZN5KAuth10ExecuteJob7newDataERK4QMapI7QString8QVariantE@Base 4.96.0
  _ZN5KAuth10ExecuteJobC1ERKNS_6ActionENS1_13ExecutionModeEP7QObject@Base 4.96.0
  _ZN5KAuth10ExecuteJobC2ERKNS_6ActionENS1_13ExecutionModeEP7QObject@Base 4.96.0
