@@ -39,8 +39,8 @@ Package: libkf5auth-bin-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Breaks: libkf5auth-dev (<< 5.10+git20150615)
-Replaces: libkf5auth-dev (<< 5.10+git20150615)
+Breaks: libkf5auth-dev (<< 5.15.0-2~)
+Replaces: libkf5auth-dev (<< 5.15.0-2~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
