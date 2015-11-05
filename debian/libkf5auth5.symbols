@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64
 kauth_backend_plugin.so libkf5auth5 #MINVER#
  qt_plugin_instance@Base 5.0.0
  qt_plugin_query_metadata@Base 5.0.0
