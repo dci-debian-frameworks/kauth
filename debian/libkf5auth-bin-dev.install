@@ -1,1 +1,2 @@
+usr/lib/*/cmake/KF5Auth/*
 usr/lib/*/libexec/kauth/kauth-policy-gen

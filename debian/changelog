@@ -2,6 +2,8 @@ kauth (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
   * Fix install file. 
+  * cmake files in bin-dev seem lost in debian merge.
+    Adding back in to make lintain happy. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 14:40:36 -0800
 
