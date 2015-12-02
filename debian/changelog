@@ -1,3 +1,10 @@
+kauth (5.16.0-1) unstable; urgency=medium
+
+  * Move bin-dev cmake files from the -dev package. Thanks to Aleix Pol
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:45 +0100
+
 kauth (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
 
   * Fix merge madness.
