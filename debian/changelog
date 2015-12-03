@@ -4,6 +4,8 @@ kauth (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
   * Fix install file. 
   * cmake files in bin-dev seem lost in debian merge.
     Adding back in to make lintain happy. 
+  * Revert that and place back in -dev as I am informed 
+    that that is where they reside in debian. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 14:40:36 -0800
 
