@@ -6,6 +6,7 @@ kauth (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
     Adding back in to make lintain happy. 
   * Revert that and place back in -dev as I am informed 
     that that is where they reside in debian. 
+  * Remove my overly greedy entry in the bin-dev install file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 14:40:36 -0800
 
