@@ -1,4 +1,4 @@
-kauth (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+kauth (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
