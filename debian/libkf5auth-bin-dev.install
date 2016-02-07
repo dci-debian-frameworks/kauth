@@ -1,2 +1,2 @@
-usr/lib/*/libexec/kauth/kauth-policy-gen
 usr/lib/*/cmake/KF5Auth/KF5AuthToolsTargets*.cmake
+usr/lib/*/libexec/kauth/kauth-policy-gen
