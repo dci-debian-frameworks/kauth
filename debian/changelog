@@ -1,6 +1,6 @@
-kauth (5.20.0-1~1.gbpbf293d) UNRELEASED; urgency=medium
+kauth (5.20.0-1~2.gbp9014ba) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bf293da2e30f12c50f7193620d0300ba2383c433 **
+  ** SNAPSHOT build @9014ba675e3f44560282b9cb631dbc5b86e29060 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kauth (5.20.0-1~1.gbpbf293d) UNRELEASED; urgency=medium
   * Update symbols files from buildds logs (5.19.0-1).
 
   [ Maximiliano Curia ]
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 29 Mar 2016 19:48:26 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 22:38:13 +0200
 
 kauth (5.19.0-1) experimental; urgency=medium
 
