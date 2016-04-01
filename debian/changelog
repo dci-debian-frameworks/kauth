@@ -1,6 +1,6 @@
-kauth (5.20.0-1~5.gbpb889ee) UNRELEASED; urgency=medium
+kauth (5.20.0-1~6.gbpab66b5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b889ee3504f6f78c15e4a1e5de174451f0cb27c8 **
+  ** SNAPSHOT build @ab66b57fbaa9bb21913369a82a28f7e0bf8f6e66 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -17,8 +17,9 @@ kauth (5.20.0-1~5.gbpb889ee) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:44:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:44:14 +0200
 
 kauth (5.19.0-1) experimental; urgency=medium
 
