@@ -1,6 +1,6 @@
-kauth (5.20.0-1~7.gbp3f0f41) UNRELEASED; urgency=medium
+kauth (5.21.0-1~1.gbpda12fb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3f0f419e973ba401853109f6c387fb0478e9a46c **
+  ** SNAPSHOT build @da12fbe66e4f22d71ed8898739cccdc693f7b59e **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -19,8 +19,15 @@ kauth (5.20.0-1~7.gbp3f0f41) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:44:25 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:44:25 +0200
 
 kauth (5.19.0-1) experimental; urgency=medium
 
