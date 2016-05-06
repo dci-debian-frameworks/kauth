@@ -1,6 +1,6 @@
-kauth (5.21.0-1~1.gbpda12fb) UNRELEASED; urgency=medium
+kauth (5.21.0-1~2.gbp28207d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @da12fbe66e4f22d71ed8898739cccdc693f7b59e **
+  ** SNAPSHOT build @28207dd6acf5cf7367a6520dd6eb1b190c1cb8b2 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,7 @@ kauth (5.21.0-1~1.gbpda12fb) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * UNRELEASED
@@ -27,7 +28,7 @@ kauth (5.21.0-1~1.gbpda12fb) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:44:25 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:40 +0200
 
 kauth (5.19.0-1) experimental; urgency=medium
 
