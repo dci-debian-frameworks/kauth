@@ -1,34 +1,18 @@
-kauth (5.21.0-1~2.gbp28207d) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @28207dd6acf5cf7367a6520dd6eb1b190c1cb8b2 **
+kauth (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files from buildds logs (5.19.0-1).
-  * Bump Standards-Version to 3.9.8
-
-  [ Maximiliano Curia ]
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
+  * Update symbols files from buildds logs (5.19.0-1).
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 May 2016 10:46:03 +0200
 
 kauth (5.19.0-1) experimental; urgency=medium
 
