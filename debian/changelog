@@ -1,3 +1,13 @@
+kauth (5.22.0-1~1.gbp0e1ccb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0e1ccb6e40a6e9d9483184c74b138002120535d2 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files from buildds logs (5.21.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:44:28 +0200
+
 kauth (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
