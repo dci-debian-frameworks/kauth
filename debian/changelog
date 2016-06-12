@@ -1,3 +1,12 @@
+kauth (5.23.0-1~1.gbpe2fa47) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e2fa470258214892a08171583a53171240214411 **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.22.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 20:44:26 +0200
+
 kauth (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
