@@ -34,6 +34,7 @@ Description: Abstraction to system policy and authentication features
  KAuth is part of KDE Frameworks 5.
  .
  This package contains development files for kauth.
+Breaks: libkf5configwidgets-dev (<< 5.25)
 
 Package: libkf5auth-bin-dev
 Section: libdevel
@@ -61,6 +62,9 @@ Description: Abstraction to system policy and authentication features
  privileged user.
  .
  KAuth is part of KDE Frameworks 5.
+Breaks: libkf5configwidgets5 (<< 5.25),
+        libkf5kcmutils5 (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25)
 
 Package: libkf5auth-data
 Architecture: all
