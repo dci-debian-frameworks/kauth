@@ -1,20 +1,14 @@
-kauth (5.25.0-1~2.gbpc59d7e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c59d7e023f36cec18dde0f72190f61563f2bd937 **
+kauth (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @60776d5728468fb7a16d44670a73e5f5c751cf7d **
-
   * Update symbols files from buildds logs (5.23.0-1).
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files.
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:44:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 09:09:28 +0200
 
 kauth (5.23.0-1) unstable; urgency=medium
 
