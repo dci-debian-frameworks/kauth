@@ -5,15 +5,15 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5coreaddons-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
                libpolkit-qt5-1-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kauth
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
@@ -24,7 +24,7 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5auth-bin-dev ( = ${binary:Version}),
          libkf5auth5 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.19.0~),
+         libkf5coreaddons-dev (>= 5.25.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
@@ -34,6 +34,7 @@ Description: Abstraction to system policy and authentication features
  KAuth is part of KDE Frameworks 5.
  .
  This package contains development files for kauth.
+Breaks: libkf5configwidgets-dev (<< 5.25)
 
 Package: libkf5auth-bin-dev
 Section: libdevel
@@ -61,6 +62,9 @@ Description: Abstraction to system policy and authentication features
  privileged user.
  .
  KAuth is part of KDE Frameworks 5.
+Breaks: libkf5configwidgets5 (<< 5.25),
+        libkf5kcmutils5 (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25)
 
 Package: libkf5auth-data
 Architecture: all

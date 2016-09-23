@@ -1,3 +1,7 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Sun, 15 May 2016 14:44:11 +0200
+Subject: kauth_add_license
+
 commit 748e9dc14325ca50dbd2789824acf888a85dc049
 Author: Maximiliano Curia <maxy@gnuservers.com.ar>
 Date:   Fri Mar 20 13:59:59 2015 +0100
@@ -13,6 +17,10 @@ Date:   Fri Mar 20 13:59:59 2015 +0100
     For details see the accompanying COPYING-CMAKE-SCRIPTS file.
     
     So we need to distribute the COPYING-CMAKE-SCRIPTS file with this package.
+---
+ COPYING-CMAKE-SCRIPTS | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+ create mode 100644 COPYING-CMAKE-SCRIPTS
 
 diff --git a/COPYING-CMAKE-SCRIPTS b/COPYING-CMAKE-SCRIPTS
 new file mode 100644
