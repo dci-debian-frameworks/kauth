@@ -1,11 +1,13 @@
-kauth (5.26.0-1~1.gbp081d00) UNRELEASED; urgency=medium
+kauth (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @081d0097bb03eee6c694cf8ee7c9cb9c88f4ea84 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.25.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:55:08 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:58:44 +0200
 
 kauth (5.25.0-1) unstable; urgency=medium
 
