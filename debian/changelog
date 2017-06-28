@@ -40,6 +40,16 @@ kauth (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:06:24 +0000
 
+kauth (5.28.0-2) unstable; urgency=medium
+
+  * Drop applied patch: kauth_add_license
+  * Add new upstream patch:
+    Verify-that-whoever-is-calling-us-is-actually-who-he-says.patch.
+    Fixes CVE-2017-8422 in kauth
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 10 May 2017 15:03:15 +0200
+
 kauth (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
