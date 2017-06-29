@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.28.0 amd64
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 kauth_backend_plugin.so libkf5auth5 #MINVER#
  qt_plugin_instance@Base 5.0.0
  qt_plugin_query_metadata@Base 5.0.0
@@ -10,6 +10,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth10ExecuteJob11qt_metacastEPKc@Base 4.96.0
  _ZN5KAuth10ExecuteJob13statusChangedENS_6Action10AuthStatusE@Base 4.96.0
  _ZN5KAuth10ExecuteJob16staticMetaObjectE@Base 4.96.0
+ _ZN5KAuth10ExecuteJob4killEN4KJob13KillVerbosityE@Base 5.35.0
  _ZN5KAuth10ExecuteJob5startEv@Base 4.96.0
  _ZN5KAuth10ExecuteJob7newDataERK4QMapI7QString8QVariantE@Base 4.96.0
  _ZN5KAuth10ExecuteJobC1ERKNS_6ActionENS1_13ExecutionModeEP7QObject@Base 4.96.0
@@ -22,6 +23,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth11ActionReply12setErrorCodeENS0_5ErrorE@Base 4.96.0
  _ZN5KAuth11ActionReply14DBusErrorReplyEv@Base 4.96.0
  _ZN5KAuth11ActionReply15HelperBusyReplyEv@Base 4.96.0
+ _ZN5KAuth11ActionReply16HelperErrorReplyEi@Base 5.35.0
  _ZN5KAuth11ActionReply16HelperErrorReplyEv@Base 4.96.0
  _ZN5KAuth11ActionReply16NoResponderReplyEv@Base 4.96.0
  _ZN5KAuth11ActionReply17NoSuchActionReplyEv@Base 4.96.0
@@ -33,6 +35,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth11ActionReply7addDataERK7QStringRK8QVariant@Base 4.96.0
  _ZN5KAuth11ActionReply7setDataERK4QMapI7QString8QVariantE@Base 4.96.0
  _ZN5KAuth11ActionReply7setTypeENS0_4TypeE@Base 4.96.0
+ _ZN5KAuth11ActionReply8setErrorEi@Base 5.35.0
  _ZN5KAuth11ActionReplyC1ENS0_4TypeE@Base 4.96.0
  _ZN5KAuth11ActionReplyC1ERKS0_@Base 4.96.0
  _ZN5KAuth11ActionReplyC1Ei@Base 4.96.0
@@ -69,6 +72,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth15ObjectDecoratorD1Ev@Base 4.96.0
  _ZN5KAuth15ObjectDecoratorD2Ev@Base 4.96.0
  _ZN5KAuth6Action10setDetailsERK7QString@Base 4.96.0
+ _ZN5KAuth6Action10setTimeoutEi@Base 5.35.0
  _ZN5KAuth6Action11addArgumentERK7QStringRK8QVariant@Base 4.96.0
  _ZN5KAuth6Action11setHelperIdERK7QString@Base 4.96.0
  _ZN5KAuth6Action12setArgumentsERK4QMapI7QString8QVariantE@Base 4.96.0
@@ -94,6 +98,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZNK5KAuth11ActionReply16errorDescriptionEv@Base 4.96.0
  _ZNK5KAuth11ActionReply4dataEv@Base 4.96.0
  _ZNK5KAuth11ActionReply4typeEv@Base 4.96.0
+ _ZNK5KAuth11ActionReply5errorEv@Base 5.35.0
  _ZNK5KAuth11ActionReply6failedEv@Base 4.96.0
  _ZNK5KAuth11ActionReply9errorCodeEv@Base 4.96.0
  _ZNK5KAuth11ActionReply9succeededEv@Base 4.96.0
@@ -106,6 +111,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZNK5KAuth6Action6statusEv@Base 4.96.0
  _ZNK5KAuth6Action7detailsEv@Base 4.96.0
  _ZNK5KAuth6Action7isValidEv@Base 4.96.0
+ _ZNK5KAuth6Action7timeoutEv@Base 5.35.0
  _ZNK5KAuth6Action8helperIdEv@Base 4.96.0
  _ZNK5KAuth6Action9argumentsEv@Base 4.96.0
  _ZNK5KAuth6Action9hasHelperEv@Base 4.96.0
