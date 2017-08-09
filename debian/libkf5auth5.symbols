@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.28.0 amd64
 kauth_backend_plugin.so libkf5auth5 #MINVER#
  qt_plugin_instance@Base 5.0.0
  qt_plugin_query_metadata@Base 5.0.0
@@ -73,6 +73,7 @@ libKF5Auth.so.5 libkf5auth5 #MINVER#
  _ZN5KAuth6Action11setHelperIdERK7QString@Base 4.96.0
  _ZN5KAuth6Action12setArgumentsERK4QMapI7QString8QVariantE@Base 4.96.0
  _ZN5KAuth6Action15setParentWidgetEP7QWidget@Base 4.96.0
+ _ZN5KAuth6Action16staticMetaObjectE@Base 5.28.0
  _ZN5KAuth6Action7executeENS0_13ExecutionModeE@Base 4.96.0
  _ZN5KAuth6Action7setNameERK7QString@Base 4.96.0
  _ZN5KAuth6ActionC1ERK7QString@Base 4.96.0
