@@ -78,6 +78,7 @@ Description: Abstraction to system policy and authentication features (documenta
  KAuth is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5auth5
 Architecture: any
