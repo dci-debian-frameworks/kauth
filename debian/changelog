@@ -1,6 +1,11 @@
 kauth (5.42.0-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.42.0).
+
+  [ Sandro Knauß ]
+  * Added patch to make kauth-gen-policy ready for cross compilation 
+    (Closes: #887521)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 22 Jan 2018 16:21:48 -0300
 
