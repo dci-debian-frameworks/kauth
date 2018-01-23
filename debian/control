@@ -21,12 +21,14 @@ Homepage: https://projects.kde.org/projects/frameworks/kauth
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
 
-Package: libkf5auth-bin-dev
+Package: libkf5auth-dev-bin
 Section: libdevel
 Architecture: any
-Multi-Arch: same
-Breaks: libkf5auth-dev (<< 5.15.0-2~)
-Replaces: libkf5auth-dev (<< 5.15.0-2~)
+Multi-Arch: foreign
+Breaks: libkf5auth-dev (<< 5.42.0-1~),
+        libkf5auth-bin-dev (<< 5.42.0-1~)
+Replaces: libkf5auth-dev (<< 5.42.0-1~),
+          libkf5auth-bin-dev (<< 5.42.0-1~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
@@ -52,11 +54,13 @@ Package: libkf5auth-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5auth-bin-dev ( = ${binary:Version}),
+Depends: libkf5auth-dev-bin (= ${binary:Version}),
          libkf5auth5 (= ${binary:Version}),
          libkf5coreaddons-dev (>= 5.41.0~),
          ${misc:Depends},
          ${shlibs:Depends},
+Breaks: libkf5auth-bin-dev (<< 5.41.0-1~),
+Replaces: libkf5auth-bin-dev (<< 5.41.0-1~)
 Recommends: libkf5auth-doc (= ${source:Version})
 Description: Abstraction to system policy and authentication features
  KAuth is a framework to let applications perform actions as a
