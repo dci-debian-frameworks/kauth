@@ -36,7 +36,9 @@ Description: Abstraction to system policy and authentication features
  .
  KAuth is part of KDE Frameworks 5.
  .
- This package contains development files for kauth.
+ This package contains helper binaries for development.
+ You never should depend on this directy, cuase the *.cmake files are
+ not included in that package, cause they are arch-depended.
 
 Package: libkf5auth-data
 Architecture: all
