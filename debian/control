@@ -60,6 +60,7 @@ Depends: libkf5auth-dev-bin (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: libkf5auth-bin-dev (<< 5.41.0-1~),
+        libkf5configwidgets-dev (<< 5.41)
 Replaces: libkf5auth-bin-dev (<< 5.41.0-1~)
 Recommends: libkf5auth-doc (= ${source:Version})
 Description: Abstraction to system policy and authentication features
@@ -69,7 +70,6 @@ Description: Abstraction to system policy and authentication features
  KAuth is part of KDE Frameworks 5.
  .
  This package contains development files for kauth.
-Breaks: libkf5configwidgets-dev (<< 5.41)
 
 Package: libkf5auth-doc
 Architecture: all
