@@ -2,13 +2,17 @@ kauth (5.42.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
 
   [ Sandro Knauß ]
   * Added patch to make kauth-gen-policy ready for cross compilation 
     (Closes: #887521)
   * rename libkf5auth-bin-dev -> libkf5auth-dev-bin
+  * Update description for dev-bin package.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 22 Jan 2018 16:21:48 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jan 2018 10:15:55 -0300
 
 kauth (5.41.0-1) experimental; urgency=medium
 
