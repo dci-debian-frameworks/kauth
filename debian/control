@@ -6,9 +6,9 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 11~),
                doxygen,
-               extra-cmake-modules (>= 5.41.0~),
+               extra-cmake-modules (>= 5.42.0~),
                graphviz,
-               libkf5coreaddons-dev (>= 5.41.0~),
+               libkf5coreaddons-dev (>= 5.42.0~),
                libpolkit-qt5-1-dev,
                libqt5sql5-sqlite,
                pkg-config,
@@ -20,25 +20,6 @@ Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/frameworks/kauth
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kauth.git
-
-Package: libkf5auth-dev-bin
-Section: libdevel
-Architecture: any
-Multi-Arch: foreign
-Breaks: libkf5auth-dev (<< 5.42.0-1~),
-        libkf5auth-bin-dev (<< 5.42.0-1~)
-Replaces: libkf5auth-dev (<< 5.42.0-1~),
-          libkf5auth-bin-dev (<< 5.42.0-1~)
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Abstraction to system policy and authentication features
- KAuth is a framework to let applications perform actions as a
- privileged user.
- .
- KAuth is part of KDE Frameworks 5.
- .
- This package contains helper binaries for development.
- You never should depend on this directy, cuase the *.cmake files are
- not included in that package, cause they are arch-depended.
 
 Package: libkf5auth-data
 Architecture: all
@@ -58,11 +39,10 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5auth-dev-bin (= ${binary:Version}),
          libkf5auth5 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.41.0~),
+         libkf5coreaddons-dev (>= 5.42.0~),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: libkf5auth-bin-dev (<< 5.41.0-1~),
-        libkf5configwidgets-dev (<< 5.41)
+Breaks: libkf5auth-bin-dev (<< 5.41.0-1~), libkf5configwidgets-dev (<< 5.41)
 Replaces: libkf5auth-bin-dev (<< 5.41.0-1~)
 Recommends: libkf5auth-doc (= ${source:Version})
 Description: Abstraction to system policy and authentication features
@@ -72,6 +52,23 @@ Description: Abstraction to system policy and authentication features
  KAuth is part of KDE Frameworks 5.
  .
  This package contains development files for kauth.
+
+Package: libkf5auth-dev-bin
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Breaks: libkf5auth-bin-dev (<< 5.42.0-1~), libkf5auth-dev (<< 5.42.0-1~)
+Replaces: libkf5auth-bin-dev (<< 5.42.0-1~), libkf5auth-dev (<< 5.42.0-1~)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Abstraction to system policy and authentication features
+ KAuth is a framework to let applications perform actions as a
+ privileged user.
+ .
+ KAuth is part of KDE Frameworks 5.
+ .
+ This package contains helper binaries for development.
+ You never should depend on this directy, cuase the *.cmake files are
+ not included in that package, cause they are arch-depended.
 
 Package: libkf5auth-doc
 Architecture: all
