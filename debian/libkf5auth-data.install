@@ -1,3 +1,4 @@
+etc/xdg/kauth.categories
 etc/dbus-1/system.d/org.kde.kf5auth.conf
 usr/share/kf5/kauth/
 usr/share/locale/*/*/kauth5_qt.qm
